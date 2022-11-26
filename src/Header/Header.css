@@ -21,3 +21,9 @@
 }
 .menu__link {
 }
+
+@media (max-width: 47.9988rem) {
+  .header__container {
+    justify-content: center;
+  }
+}
