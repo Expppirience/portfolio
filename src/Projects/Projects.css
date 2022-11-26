@@ -1,0 +1,29 @@
+.projects {
+}
+.projects__container {
+}
+.projects__content {
+  padding: 4.6875rem 0px;
+  display: flex;
+  flex-direction: column;
+}
+.projects__title {
+  align-self: center;
+  font-weight: 700;
+}
+
+.projects__title:not(:last-child) {
+  margin-bottom: 1.875rem;
+}
+.projects__items {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+@media (max-width: 62.3738rem) {
+  .projects__items {
+    flex-direction: column;
+  }
+}

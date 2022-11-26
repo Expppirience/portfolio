@@ -7,7 +7,7 @@ export const Skills = () => {
     <div className="skills">
       <div className="skills__container">
         <div className="skills__content">
-          <h1 className="skills__title">My skills</h1>
+          <h2 className="skills__title">My skills</h2>
           <div className="skills__items">
             <Skill />
             <Skill />
