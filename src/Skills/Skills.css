@@ -1,0 +1,24 @@
+.skills {
+  padding: 4.6875rem 0px;
+}
+.skills__container {
+}
+.skills__content {
+  border: 1px solid lightblue;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.skills__title {
+  font-weight: 700;
+}
+
+.skills__title:not(:last-child) {
+  margin-bottom: 3.125rem;
+}
+.skills__items {
+  align-self: stretch;
+  display: flex;
+  justify-content: space-between;
+  gap: 1.25rem;
+}

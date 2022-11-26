@@ -1,0 +1,32 @@
+.skill__item {
+  flex: 0 1 33.333%;
+}
+.item-skill {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.item-skill__img {
+
+}
+
+.item-skill__img:not(:last-child) {
+	
+}
+.item-skill__img-placeholder {
+  width: 120px;
+  height: 120px;
+  background: grey;
+}
+
+.item-skill__img-placeholder {
+  margin-bottom: 2.5rem;
+}
+
+.item-skill__title {
+  font-weight: 700;
+}
+
+
+.item-skill__description {
+}
