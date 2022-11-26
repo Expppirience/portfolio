@@ -19,6 +19,13 @@
 .skills__items {
   align-self: stretch;
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
   gap: 1.25rem;
+}
+
+@media (max-width: 47.9988rem) {
+  .skills__items {
+    flex-direction: column;
+  }
 }

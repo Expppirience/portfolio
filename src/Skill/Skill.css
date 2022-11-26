@@ -5,13 +5,15 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  flex: 0 0 300px;
+
+  border: 1px solid coral;
 }
 .item-skill__img {
-
 }
 
 .item-skill__img:not(:last-child) {
-	
+  margin-bottom: 2.5rem;
 }
 .item-skill__img-placeholder {
   width: 120px;
@@ -19,14 +21,15 @@
   background: grey;
 }
 
-.item-skill__img-placeholder {
-  margin-bottom: 2.5rem;
-}
-
 .item-skill__title {
   font-weight: 700;
 }
 
+.item-skill__title:not(:last-child) {
+  margin-bottom: 30px;
+}
 
 .item-skill__description {
+  border: 1px solid black;
+  text-align: center;
 }
