@@ -9,7 +9,6 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    border: 1px solid lightblue;
     gap: 20px;
     flex-wrap: wrap;
     min-height: 100vh;
@@ -28,8 +27,8 @@
 
 .info-hero {
   &__title {
-    max-width: 18.75rem;
-    font-weight: 700;
+    max-width: 19.5rem;
+    color: var(--color-steel);
   }
 }
 .hero__media {
@@ -38,7 +37,7 @@
 .media-hero {
   &__img {
     &-placeholder {
-      background: peachpuff;
+      background: var(--color-magenta);
       width: 12.5rem;
       height: 350px;
     }

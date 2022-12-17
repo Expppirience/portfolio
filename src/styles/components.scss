@@ -1,0 +1,39 @@
+.title--primary {
+	font-weight: 700;
+	font-size: 1.5rem;
+	color: var(--color-steel);
+}
+.title--underline {
+	position: relative;
+	&::before {
+		content: "";
+		position: absolute;
+		width: 70%;
+		height: 2px;
+		background: var(--color-sapphire);
+		bottom: -5px;
+		left: 50%;
+		transform: translate(-50%, 0);
+	}
+}
+
+.button--primary {
+	display: flex;
+	align-items: center;
+	gap: 5px;
+	padding: 10px 15px;
+	border-radius: 4px;
+	background: var(--color-sapphire);
+	color: var(--color-magenta);
+	border: 1px solid transparent;
+
+	transition: all 0.3s ease 0s;
+
+	@media (any-hover: hover) {
+		&:hover {
+			background: transparent;
+			color: var(--color-sapphire);
+			border-color: var(--color-sapphire);
+		}
+	}
+}

@@ -9,7 +9,7 @@ export const Skill = () => {
         {/* <img src="#" alt=""> */}
         <div className="item-skill__img-placeholder"></div>
       </div>
-      <h2 className="item-skill__title">React</h2>
+      <h2 className="item-skill__title title--primary">React</h2>
       <div className="item-skill__description">
         Lorem ipsum dolor sit amet consectetur, adipisicing elit. Id quod
         incidunt quia sapiente voluptatem accusantium amet aut? Autem placeat

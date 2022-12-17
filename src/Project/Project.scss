@@ -1,8 +1,21 @@
 .item-projects {
   flex: 0 1 400px;
-  border: 1px solid black;
+  background: var(--color-gray);
+  border-radius: 5px;
 
   &__content {
+    @media (any-hover: hover) {
+      &:hover {
+        .item-projects__btn {
+          opacity: 1;
+          visibility: visible;
+          pointer-events: auto;
+        }
+      }
+    }
+    &:nth-child(even) {
+      background: rgb(77, 77, 77);
+    }
   }
 
   &__media {
@@ -12,7 +25,7 @@
     &-placeholder {
       height: 200px;
       width: 100%;
-      background: lightgreen;
+      background: var(--color-magenta);
     }
   }
   &__btn {
@@ -21,9 +34,9 @@
     top: 50%;
     left: 50%;
     z-index: 2;
-    background: grey;
-    padding: 10px 15px;
-    border-radius: 4px;
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
   }
 
   &__body {
@@ -31,6 +44,7 @@
   }
 
   &__title {
+    color: var(--color-purple);
     font-weight: 600;
     &:not(:last-child) {
       margin-bottom: 20px;
@@ -38,7 +52,7 @@
   }
 
   &__description {
-    background: lightgrey;
+    color: var(--color-magenta);
     padding: 5px;
   }
 }

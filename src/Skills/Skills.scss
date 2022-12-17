@@ -5,7 +5,6 @@
   }
 
   &__content {
-    border: 1px solid lightblue;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -14,7 +13,7 @@
   }
 
   &__title {
-    font-weight: 700;
+    color: var(--color-steel);
     &:not(:last-child) {
       margin-bottom: 3.125rem;
     }
@@ -24,7 +23,8 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    gap: 1.25rem;
+    justify-content: center;
+    margin: 0px -15px;
 
     @media (max-width: 47.9988rem) {
       flex-direction: column;
@@ -33,5 +33,6 @@
 
   .skill__item {
     flex: 0 1 33.333%;
+    padding: 0px 15px;
   }
 }

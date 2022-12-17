@@ -9,7 +9,6 @@
   }
 
   &__title {
-    font-weight: 700;
     align-self: center;
 
     &:not(:last-child) {
@@ -34,6 +33,7 @@
 
   &__copy {
     align-self: center;
+    color: var(--color-purple);
   }
 
   &__text {
@@ -41,7 +41,7 @@
   }
 }
 .item-footer {
-  background: grey;
+  background: var(--color-magenta);
 
   &__content {
   }

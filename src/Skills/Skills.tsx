@@ -8,7 +8,9 @@ export const Skills = () => {
     <div className="skills">
       <div className="skills__container">
         <div className="skills__content">
-          <h2 className="skills__title">My skills</h2>
+          <h2 className="skills__title title--primary title--underline">
+            My skills
+          </h2>
           <div className="skills__items">
             <Skill />
             <Skill />

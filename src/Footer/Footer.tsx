@@ -7,7 +7,7 @@ export const Footer = () => {
     <div className="footer">
       <div className="footer__container">
         <div className="footer__content">
-          <h2 className="footer__title">Aleksey Tsivina</h2>
+          <h2 className="footer__title title--primary">Aleksey Tsivina</h2>
           <div className="footer__items">
             <div className="footer__item item-footer">
               <div className="item-footer__content">

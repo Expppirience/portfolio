@@ -5,8 +5,6 @@
   flex: 0 0 300px;
   padding: 10px;
 
-  border: 1px solid coral;
-
   &__img {
     &:not(:last-child) {
       margin-bottom: 2.5rem;
@@ -14,18 +12,18 @@
     &-placeholder {
       width: 120px;
       height: 120px;
-      background: grey;
+      background: var(--color-sapphire);
     }
   }
   &__title {
-    font-weight: 700;
+    color: var(--color-purple);
     &:not(:last-child) {
       margin-bottom: 30px;
     }
   }
 
   &__description {
-    border: 1px solid black;
+    color: var(--color-magenta);
     text-align: center;
   }
 }

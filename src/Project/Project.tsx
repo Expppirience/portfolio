@@ -1,15 +1,23 @@
 import "./Project.scss";
 
-import React from "react";
+import React, { FC } from "react";
 
-export const Project = () => {
+import { IProjectStyles } from "./../Projects/Projects";
+
+interface IProjectProps {
+  projectStyles: IProjectStyles;
+}
+
+export const Project: FC<IProjectProps> = ({ projectStyles }) => {
   return (
     <article className="projects__item item-projects">
-      <div className="item-projects__content">
+      <div className="item-projects__content" style={projectStyles}>
         <div className="item-projects__media">
           {/* <img src="#" alt="#" className="item-projects__img" /> */}
           <div className="item-projects__img-placeholder"></div>
-          <button className="item-projects__btn">Show more</button>
+          <button className="item-projects__btn button--primary">
+            Show more
+          </button>
         </div>
         <div className="item-projects__body">
           <h3 className="item-projects__title">Project title</h3>

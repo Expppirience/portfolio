@@ -8,7 +8,7 @@ export const Hero = () => {
       <div className="hero__container">
         <div className="hero__content">
           <div className="hero__info info-hero">
-            <h1 className="info-hero__title">
+            <h1 className="info-hero__title title--primary">
               Hey!
               <br />
               My name is Aleksey Tsivina.
