@@ -1,5 +1,7 @@
+import "./Hire.scss";
+
 import React from "react";
-import "./Hire.css";
+
 export const Hire = () => {
   return (
     <div className="hire">

@@ -1,5 +1,7 @@
+import "./Contacts.scss";
+
 import React from "react";
-import "./Contacts.css";
+
 export const Contacts = () => {
   return (
     <div className="contacts">

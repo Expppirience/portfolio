@@ -1,7 +1,7 @@
-import React from "react";
-import { Project } from "../Project/Project";
+import "./Projects.scss";
 
-import "./Projects.css";
+import { Project } from "../Project/Project";
+import React from "react";
 
 export const Projects = () => {
   return (

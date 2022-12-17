@@ -1,5 +1,6 @@
+import "./Header.scss";
+
 import React from "react";
-import './Header.css'
 
 export const Header = () => {
   return (
@@ -15,7 +16,7 @@ export const Header = () => {
               </li>
               <li className="menu__item">
                 <a href="/" className="menu__link">
-                  SKills
+                  Skills
                 </a>
               </li>
               <li className="menu__item">

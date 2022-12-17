@@ -1,6 +1,7 @@
+import "./Skills.scss";
+
 import React from "react";
 import { Skill } from "../Skill/Skill";
-import './Skills.css'
 
 export const Skills = () => {
   return (

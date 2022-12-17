@@ -1,11 +1,14 @@
 .projects {
+  padding: 1.25rem 0px;
 }
 .projects__container {
 }
 .projects__content {
-  padding: 4.6875rem 0px;
   display: flex;
   flex-direction: column;
+  border: 1px solid lightblue;
+  min-height: 100vh;
+  justify-content: center;
 }
 .projects__title {
   align-self: center;

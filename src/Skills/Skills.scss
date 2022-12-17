@@ -1,14 +1,18 @@
 .skills {
-  padding: 4.6875rem 0px;
+  padding: 1.25rem 0px;
 }
 .skills__container {
 }
+
 .skills__content {
   border: 1px solid lightblue;
   display: flex;
   flex-direction: column;
+  justify-content: center;
   align-items: center;
+  min-height: 100vh;
 }
+
 .skills__title {
   font-weight: 700;
 }
@@ -16,6 +20,7 @@
 .skills__title:not(:last-child) {
   margin-bottom: 3.125rem;
 }
+
 .skills__items {
   align-self: stretch;
   display: flex;

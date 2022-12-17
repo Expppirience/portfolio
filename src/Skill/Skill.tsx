@@ -1,5 +1,6 @@
+import "./Skill.scss";
+
 import React from "react";
-import "./Skill.css";
 
 export const Skill = () => {
   return (

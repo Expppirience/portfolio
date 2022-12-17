@@ -1,5 +1,5 @@
 .hero {
-  padding: 4.375rem 0px;
+  padding: 1.25rem 0px;
 }
 .hero__container {
 }
@@ -7,14 +7,16 @@
   padding: 0px 3.125rem;
   display: flex;
   justify-content: space-between;
+  align-items: center;
   border: 1px solid lightblue;
   gap: 20px;
   flex-wrap: wrap;
+  min-height: 100vh;
 }
+
 .hero__info {
 }
 .info-hero {
-  align-self: center;
 }
 .info-hero__title {
   max-width: 18.75rem;
@@ -38,5 +40,6 @@
     flex-direction: column;
     align-items: center;
     padding: 0px 0.9375rem;
+    justify-content: center;
   }
 }
