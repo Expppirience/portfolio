@@ -1,29 +1,31 @@
 .header {
   padding: 0.9375rem 0px;
   border: 1px solid lightblue;
-}
-.header__container {
-  display: flex;
-  justify-content: flex-end;
-}
-.header__menu {
+
+  &__container {
+    display: flex;
+    justify-content: flex-end;
+
+    @media (max-width: 47.9988rem) {
+      justify-content: center;
+    }
+  }
+
+  &__menu {
+  }
 }
 .menu {
-}
-.menu__body {
-}
-.menu__list {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 5px 0.9375rem;
-}
-.menu__item {
-}
-.menu__link {
-}
+  &__body {
+  }
 
-@media (max-width: 47.9988rem) {
-  .header__container {
-    justify-content: center;
+  &__list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px 0.9375rem;
+  }
+  &__item {
+  }
+
+  &__link {
   }
 }
