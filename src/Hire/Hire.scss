@@ -1,24 +1,25 @@
 .hire {
-}
-.hire__container {
-}
-.hire__content {
-  padding: 3.125rem 10px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  border: 1px solid black;
-  text-align: center;
-}
-.hire__title {
-  font-weight: 700;
-}
+  &__container {
+  }
 
-.hire__title:not(:last-child) {
-  margin-bottom: 30px;
-}
-.hire__btn {
-  background: grey;
-  padding: 10px 15px;
-  font-weight: 700;
+  &__content {
+    padding: 3.125rem 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid black;
+    text-align: center;
+  }
+
+  &__title {
+    font-weight: 700;
+    &:not(:last-child) {
+      margin-bottom: 30px;
+    }
+  }
+  &__btn {
+    background: grey;
+    padding: 10px 15px;
+    font-weight: 700;
+  }
 }
